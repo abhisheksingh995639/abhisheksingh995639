@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin:0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height:50px;
+  width:100%;
+  background-color:rgb(25,25,25);
+  position:fixed;
+}
+
+#cafe{
+  color: white;
+  font-size:40px;
+  font-weight:200;
+}
+
+#option{
+  display:flex;
+  width:50%;
+  height: 60px;
+  justify-content:right;
+  margin-right:-5%;
+  gap:5%;
+}
+
+#menu{
+  color: white;
+  font-size:25px;
+  font-weight:300;
+  background-color:red;
+  height:55px;
+  padding: 0 5% 0% 5%;
+  align-content:center;
+  text-decoration:none;
+  
+}
+
+#service{
+  color: white;
+  font-size:25px;
+  font-weight:300;
+  background-color:red;
+  height:55px;
+  padding: 0 5% 0% 5%;
+  align-content:center;
+}
+
+
+#look{
+  color: white;
+  font-size:25px;
+  font-weight:300;
+  background-color:red;
+  height:55px;
+  padding: 0 5% 0% 5%;
+  align-content:center;
+}
+
+.heroimg{
+  height:700px;
+  width:100%;
+  background-color:rgb(25,25,25);
+  align-content:center;
+  background-image:url("hero.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+.heroline{
+  color:white;
+  font-size:65px;
+  font-weight:350;
+  text-align:right;
+  margin-right:10%;
+}
+
+.about{
+  padding:5% 3% 5% 3%;  
+}
+
+.about-title{
+  font-size:40px;
+  font-weight:200;
+  text-align:center;
+  margin-bottom:2%;
+}
+
+.about-content{
+  font-size:20px;
+  font-weight:400;
+  text-align:center;
+}
+
+.gallery{
+  display:flex;
+  justify-content:center;
+  gap:3%;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+#gallery-item{
+  border-radius:20px;
+  width:300px;
+}
+
+.service{
+  padding:5% 3% 5% 3%;
+}
+
+.service-title{
+  font-size:40px;
+  font-weight:200;
+  text-align:center;
+  margin-bottom:2%;
+}
+
+.service-content{
+  font-size:20px;
+  font-weight:400;
+  text-align:center;
+}
+
+.menu{
+  padding:5% 3% 2.5% 3%;
+  
+}
+
+.menu-title{
+  font-size:40px;
+  font-weight:200;
+  text-align:center;
+  margin-bottom:2%;
+}
+
+.menu-content{
+  font-size:20px;
+  font-weight:400;
+  text-align:center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+#menu-item{
+  background-color:white;
+  margin:10px;
+  border-radius:25px;
+  box-shadow:2px 2px 30px rgba(0,0,0,0.1);
+  padding:2%;
+  width:300px;
+  font-size:30px;
+  font-weight:300;
+}
+
+#pricetag{
+  margin-top:3%;
+  font-size:30px;
+  font-weight:500;
+}
+
+.testimonial{
+  padding:5% 6% 2.5% 6%;  
+}
+
+.testimonial-title{
+  font-size:40px;
+  font-weight:200;
+  text-align:center;
+  margin-bottom:2%;
+}
+
+#customername{
+  font-size:20px;
+  font-weight:500;
+  margin-bottom:4%;
+}
+
+#customercomment{
+  font-size:15px;
+  font-weight:400;
+}
+
+.testimonial-content{
+  display:flex;
+}
+
+#testimonial-item{
+  margin:10px;
+  border-radius:20px;
+  box-shadow:2px 2px 30px rgba(0,0,0,0.1);
+  padding:2%;
+  background-color:white;
+  
+}       
+
+.contact{
+  padding:5% 3% 2.5% 3%;
+}
+
+.contact-title{
+  font-size:40px;
+  font-weight:200;
+  text-align:center;
+  margin-bottom:2%;
+}
+.contact-content{
+  font-size:20px;
+  font-weight:400;
+  text-align:center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+#contact-item{
+  margin:10px;
+  border-radius:20px;
+  box-shadow:2px 2px 30px rgba(0,0,0,0.1);
+  padding:2%;
+  display:flex;
+  align-items:center;
+  height:60px;
+  width:325px;
+  gap:10%;
+  background-color:white;
+}
+
+#contact-item img{
+  height:50px;
+  width:50px;
+}
+
+#location{
+  margin:10px;
+  border-radius:20px;
+  box-shadow:2px 2px 30px rgba(0,0,0,0.1);
+  padding:2%;
+  display:flex;
+  align-items:center;
+  height:60px;
+  width:fit-content;
+  justify-content:center;
+  background-color:white;
+}
+
+#dish1{
+  background-image:url("dish1.jpg");
+  background-size:cover;
+  height: 200px;
+  width: 300px;
+  border-radius:20px 20px 0px 0px;
+  margin-bottom:3%;
+}
+#dish2{
+  background-image:url("dish2.jpg");
+  background-size:cover;
+  height: 200px;
+  width: 300px;
+  border-radius:20px 20px 0px 0px;
+  margin-bottom:3%;
+}
+#dish3{
+  background-image:url("dish3.jpg");
+  background-size:cover;
+  height: 200px;
+  width: 300px;
+  border-radius:20px 20px 0px 0px;
+  margin-bottom:3%;
+}
+#dish4{
+  background-image:url("dish4.jpg");
+  background-size:cover;
+  height: 200px;
+  width: 300px;
+  border-radius:20px 20px 0px 0px;
+  margin-bottom:3%;
+}
+#dish5{
+  background-image:url("dish5.jpg");
+  background-size:cover;
+  height: 200px;
+  width: 300px;
+  border-radius:20px 20px 0px 0px;
+  margin-bottom:3%;
+}
+#dish6{
+  background-image:url("dish6.jpg");
+  background-size:cover;
+  height: 200px;
+  width: 300px;
+  border-radius:20px 20px 0px 0px;
+  margin-bottom:3%;
+}
+
+#address{
+  margin-left:5%;
+}
+
+#foot{
+    background-color:red;
+    height:40px;
+    font-size:20px;
+    font-weight:100px;
+    align-content:center;
+    text-align:center;
+    color:white;
+}
+
+#link{
+  text-decoration:none;
+  color:white;
+}
