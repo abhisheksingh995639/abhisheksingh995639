@@ -107,15 +107,6 @@
 
 ---
 
-### 🏆 GitHub Trophies
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=abhisheksingh995639&theme=tokyonight&margin-w=15&margin-h=15&column=7&no-frame=true&no-bg=true" alt="abhisheksingh995639 trophies" />
-  </a>
-</div>
-
----
-
 ### ⚡ GitHub Stats
 
 <div align="center">
