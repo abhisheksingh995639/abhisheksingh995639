@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="banner.png" alt="Profile Banner" width="100%">
-  <br><br>
 
   <h1>Hi there, I'm Abhishek Singh 👋</h1>
   
